@@ -54,7 +54,7 @@ header span {
 
 .title {
   background-color: cadetblue;
-  padding: 1rem;
+  padding: 1rem 0;
   display: inline-flex;
   flex-flow: nowrap row;
   align-items: center;
@@ -77,12 +77,13 @@ header span {
 
 .company img {
   height: 1.5rem;
-  padding-left: 1rem;
+  margin-left: 2rem;
 }
 
 .navlinks {
   display: inline-flex;
   flex-grow: 0;
+  margin-right: 1rem;
   justify-content: flex-end;
 }
 
@@ -148,7 +149,7 @@ main .section {
   background-color: cadetblue;
   padding: 0.5rem 1.25rem;
   text-align: left;
-  width: 50%;
+  width: 100%;
   margin-bottom: 1rem;
 }
 
@@ -168,4 +169,150 @@ main .section {
 
 .copyright span {
   padding: 4rem 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+
+  .mainbanner {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .slogan.container {
+    margin-top: 5rem;
+    position: relative;
+    left: -2rem;
+    justify-content: flex-end;
+    }
+
+  .slogan h1 {
+    padding: 0.75rem 4rem;
+    background-color: white;
+  }
+
+}
+
+@media only screen and (max-width: 470px) {
+  #company span {
+    display: none;
+  }
+
+  #navlinks {
+    display: none;
+  }
+
+  #menu {
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.77rem;
+  }
+
+  .mainbanner {
+    height: 17rem;
+    background-position: left;
+  }
+
+  .company {
+    justify-content: flex-start;
+  }
+
+  .slogan.container {
+    margin-top: 9rem;
+    position: static;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    }
+
+  .slogan h1 {
+    padding: 1rem 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icons.container {
+    flex-flow: nowrap column;
+    margin: 3.77rem 0;
+    padding: 0;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .iconbox {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    height: 8rem;
+    width: 5rem;
+    text-align: center;
+  }
+
+  #exams {
+    padding-bottom: 1.54rem;
+  }
+
+  #fittings {
+    padding-bottom: 1.54rem;
+  }
+
+  .iconbox img {
+    padding-bottom: 1rem;
+  }
+
+  .maininfo {
+    display: inline-flex;
+    align-items: center;
+    flex-flow: nowrap column;
+    width: 100%;
+  }
+
+  .maininfo p {
+    margin-bottom: 4rem;
+    padding: 0 0.5rem;
+  }
+
+  .sectionbox {
+    width: 100%;
+    padding: 0;
+  }
+
+  .headerbox {
+    padding: 0 0.5rem;
+    text-align: center;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  .footer {
+    margin-top: 0;
+  }
+
+  .copyright {
+    justify-content: center;
+  }
+
+  .copyright img {
+    padding: 4rem;
+  }
+
+  .copyright span {
+    display: none;
+  }
+
 }
