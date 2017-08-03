@@ -1,0 +1,171 @@
+.bord {
+  border: 2px solid aqua;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  width: 960px;
+  display: flex;
+}
+
+#menu {
+  display: none;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+header span {
+  color: white;
+}
+
+.mainbanner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 1rem;
+  flex-direction: column;
+  height: 31rem;
+}
+
+.mainbanner.section {
+  align-items: center;
+}
+
+.title {
+  background-color: cadetblue;
+  padding: 1rem;
+  display: inline-flex;
+  flex-flow: nowrap row;
+  align-items: center;
+}
+
+.title span {
+  padding: 0 1rem;
+  flex-flow: wrap row;
+}
+
+.company {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.company span {
+  flex-grow: 1;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 1rem;
+}
+
+.navlinks {
+  display: inline-flex;
+  flex-grow: 0;
+  justify-content: flex-end;
+}
+
+.slogan.container {
+  margin-top: 10rem;
+  position: relative;
+  left: 2rem;
+  justify-content: flex-end;
+}
+
+.slogan h1 {
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+main .section {
+  justify-content: center;
+}
+
+.icons {
+  padding: 3rem 0;
+  height: 8rem;
+  justify-content: center;
+}
+
+.icons.container {
+  justify-content: center;
+}
+
+.iconbox {
+  display: flex;
+  flex-flow: nowrap column;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 5rem;
+  padding: 0 3rem;
+  text-align: center;
+}
+
+.iconbox img {
+  width: 5rem;
+  height: auto;
+}
+
+#exams img {
+  height: 4rem;
+  width:: auto;
+}
+
+.maininfo.container {
+  justify-content: center;
+}
+
+.sectionbox {
+  display: flex;
+  flex-flow: wrap column;
+  width: 35%;
+  padding: 0 5%;
+}
+
+.headerbox {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  text-align: left;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: azure;
+}
+
+.copyright img {
+  height: 1.5rem;
+  padding: 4rem 0 4rem 4rem;
+}
+
+.copyright span {
+  padding: 4rem 1rem;
+}
